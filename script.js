@@ -183,14 +183,21 @@ if (btn) {
 
     const title = editingPostElement.querySelector("h3").textContent ;
     const body = editingPostElement.querySelector("p").textContent ;
+    
+      editingPostId = null;
+editingPostElement = null;
+postTitle.value = "";
+postBody.value = "";
 
     postTitle.value = title;
    postBody.value = body;
 
 
+      
+
   }
     
  
-  
+
  
 });
